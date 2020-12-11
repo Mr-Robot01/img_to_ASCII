@@ -31,10 +31,10 @@ int main() {
 	int kw = 2;
 	int kh = 6;
 
-	cout << "Имя и директория для фото: " << endl;
+	cout << "Name or dir to img file: " << endl;
 	cin >> img_d;
 
-	cout << "Имя и директория выходного файла: " << endl;
+	cout << "Name or dir to out file: " << endl;
 	cin >> file_d;
 
 	sf::Image image;
